@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <defs>
+    <filter id="shadow" x="-15%" y="-15%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="shadow"/>
+      <feOffset dx="2" dy="2" result="shadow"/>
+      <feComposite in="SourceGraphic" in2="shadow" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- 여백을 주기 위해 x, y 값을 조정 -->
+  <text x="20" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#4A90E2" filter="url(#shadow)">Interactive</text>
+  <text x="20" y="100" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#5CB3FF" filter="url(#shadow)">Study</text>
+</svg>
