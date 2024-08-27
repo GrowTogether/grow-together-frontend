@@ -1,0 +1,13 @@
+.outline{
+    padding: 20px 20px 20px 20px
+}
+.controls{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sign, .join, .sepa{
+    background-color: transparent;
+    border: 0px solid;
+    font-size: 16px;
+    margin-left: 10px;
+}
