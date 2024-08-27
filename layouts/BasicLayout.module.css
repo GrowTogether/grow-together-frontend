@@ -7,9 +7,11 @@
 }
 .sign, .join, .sepa{
     background: transparent;
-    font-size: var(--font-size-sm);
     border: var(--border-none);
     margin-left: var(--margin-xs);
+}
+.text{
+    font-size: var(--font-size-sm);
 }
 .footer{
     display: flex;

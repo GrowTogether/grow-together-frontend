@@ -9,8 +9,12 @@ export default function BasicLayout({ children }: IReactNode) {
 		<>
 			<div className={styles.outline}>
 				<div className={styles.controls}>
-					<button className={styles.join}>회원가입</button>
-					<Button className={styles.sign}>로그인</Button>
+					<button className={styles.join}>
+						<p className={styles.text}>회원가입</p>
+					</button>
+					<Button className={styles.sign}>
+						<p className={styles.text}>로그인</p>
+					</Button>
 				</div>
 
 				<div>{children}</div>
