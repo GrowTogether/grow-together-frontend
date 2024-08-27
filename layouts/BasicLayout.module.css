@@ -1,13 +1,27 @@
 .outline{
-    padding: 20px 20px 20px 20px
+    padding: var(--container-padding-lg);
 }
 .controls{
     display: flex;
     flex-direction: row-reverse;
 }
 .sign, .join, .sepa{
-    background-color: transparent;
-    border: 0px solid;
-    font-size: 16px;
-    margin-left: 10px;
+    background: transparent;
+    font-size: var(--font-size-sm);
+    border: var(--border-none);
+    margin-left: var(--margin-xs);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.desc{
+    margin-top: 2px;
 }

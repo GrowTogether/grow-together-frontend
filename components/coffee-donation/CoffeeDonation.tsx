@@ -18,7 +18,7 @@ export default function CoffeeDonation() {
 				</div>
 				<div className={styles.button}>
 					<Button>
-						커피 도네이션 하기
+						<p>커피 도네이션 하기</p>
 						<Coffee className={styles.coffee2} />
 					</Button>
 				</div>

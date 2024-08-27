@@ -6,6 +6,7 @@ import MenuList from '@/components/menu-list/MenuList';
 import BasicLayout from '@/layouts/BasicLayout';
 import CoffeeDonation from '@/components/coffee-donation/CoffeeDonation';
 import ExplainApp from '@/components/explain-app/ExplainApp';
+import Button from '@/components/ui/button/Button';
 
 export default function Home() {
 	return (
@@ -24,6 +25,11 @@ export default function Home() {
 				<main className={styles.main}>
 					<section>
 						<MenuList></MenuList>
+					</section>
+					<section>
+						<div className={styles.start}>
+							<Button>시작하기</Button>
+						</div>
 					</section>
 					<section>
 						<ExplainApp></ExplainApp>
