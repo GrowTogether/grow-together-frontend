@@ -1,5 +1,5 @@
 .outline{
-    padding: var(--container-padding-lg);
+    padding: var(--container-padding-md) var(--container-padding-lg);
 }
 .controls{
     display: flex;

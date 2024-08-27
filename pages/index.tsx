@@ -27,11 +27,6 @@ export default function Home() {
 						<MenuList></MenuList>
 					</section>
 					<section>
-						<div className={styles.start}>
-							<Button>시작하기</Button>
-						</div>
-					</section>
-					<section>
 						<ExplainApp></ExplainApp>
 					</section>
 					<section>

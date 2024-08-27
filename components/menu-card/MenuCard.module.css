@@ -1,7 +1,10 @@
 .container {
     display: flex;
+    flex-direction: column;
     cursor: pointer;
-    width: var(--container-width-s);
+    text-align: center;
+    width: var(--square-mini-w);
+    height: var(--square-mini-h);
     background: var(--color-white-0);
     border: var(--border-slim);
     box-shadow: var(--box-shadow-sm);
@@ -17,12 +20,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color:var(--color-blue-1);
     padding: var(--container-padding-md);
-    margin-left: var(--margin-sm);
 }
-.content{
-    margin-left: var(--margin-sm);
-}
+.content{}
 .title{
     color:var(--color-blue-1);
     padding: var(--container-padding-sm);

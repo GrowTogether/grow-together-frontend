@@ -8,7 +8,8 @@
   --color-gray-0: #f9fafb;
   --color-gray-1: #e5e7eb;          
   --color-gray-2: #4b5563;
-  --color-gray-3: #333333;       
+  --color-gray-3: #333333;
+  --color-blue-gray: #58749c;
   --color-blue-0-0: #ebf8ff;      
   --color-blue-0: #5cb3ff;     
   --color-blue-1: #60a5fa;     
@@ -61,6 +62,10 @@
   /* border */
   --border-none: 0px;
   --border-slim: 1px solid var(--color-gray-1);
+
+  /* Card Sepc */
+  --square-mini-w: 200px;
+  --square-mini-h: 160px;
 }
 * {
   margin: 0;

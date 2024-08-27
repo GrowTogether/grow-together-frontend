@@ -1,4 +1,7 @@
 .desc{
     text-align: center;
+    color: var(--color-blue-gray);
     font-size: var(--font-size-md);
+    margin-top: var(--margin-lg);
+    margin-bottom: var(--margin-lg);
 }

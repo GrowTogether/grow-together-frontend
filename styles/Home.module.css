@@ -1,5 +1,5 @@
 .header{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .logo-container{
     display: flex;
@@ -19,5 +19,5 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    gap: 60px;
+    gap: 80px;
 }
