@@ -1,0 +1,7 @@
+.outline{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: var(--container-width-s);
+}

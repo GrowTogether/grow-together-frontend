@@ -4,26 +4,12 @@
 .controls{
     display: flex;
     flex-direction: row-reverse;
+    gap: 1rem;
 }
 .sign, .join, .sepa{
     background: transparent;
     border: var(--border-none);
-    margin-left: var(--margin-xs);
 }
 .text{
     font-size: var(--font-size-sm);
-}
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-}
-.content{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-.desc{
-    margin-top: 2px;
 }

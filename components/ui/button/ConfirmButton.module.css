@@ -3,15 +3,15 @@
     flex-direction: row;
     font-size: var(--font-size-default);
     color: var(--color-white-0);
-    background: var(--color-gray-3);
+    background: var(--color-blue-2); 
     padding: var(--container-padding-sm) var(--container-padding-lg);
-    border-radius: var(--border-radius-xl);
-    box-shadow: var(--box-shadow-sm);
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--box-shadow-blue-sm);
     transition: all 0.3s ease;
     border: var(--border-none);
 }
 
 .button:hover {
-    background-color: var(--color-black-0);
-    box-shadow: var(--box-shadow-md)
+    background: var(--color-blue-3);
+    box-shadow: var(--box-shadow-blue-md);
 }

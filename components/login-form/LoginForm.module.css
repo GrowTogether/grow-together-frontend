@@ -1,0 +1,124 @@
+.container {
+    background: var(--color-white-0);
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--box-shadow-sm);
+    padding: var(--container-padding-xl);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    margin-left: var(--margin-xs);
+    margin-bottom: var(--margin-xs);
+}
+.email,
+.password{
+    height: var(--input-box-h);
+    border-radius: var(--border-radius-sm);
+    border: var(--border-slim2);
+    font-size: var(--font-size-default);
+    padding-left: var(--container-padding-sm);
+    margin-bottom: var(--margin-md);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--margin-md);
+}
+.submittext{
+    padding: 0 200px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--margin-md);
+}
+.rememberid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox {
+    height: 1rem;
+    width: 1rem; 
+    color: var(--color-blue-2);
+    border-color: var(--color-gray-2);
+} 
+.checkbox:focus {
+    outline: none;
+}
+.remembertext{
+    margin-left: var(--margin-xs);
+}
+.rememberpassword{
+    color: var(--color-blue-2);
+}
+.divider {
+    position: relative;
+}
+.sepa {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.line{
+    width: 100%;
+    border-top: var(--border-slim);
+}
+.sepa2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-size-sm)
+}
+.joiner{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--margin-md);
+}
+.text{
+    background: var(--color-white-0);
+    padding: 0 var(--container-padding-md);
+}
+.text2{
+    color: var(--color-blue-2);
+}
+.socials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* grid-cols-3 */
+    gap: 0.75rem; 
+    margin-top: var(--margin-md);
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--border-slim2);
+    border-radius: var(--border-radius-sm);
+    height: var(--input-box-h);
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.social-icon{
+    width: var(--icon-default);
+    height: var(--icon-default);
+}
+.google-social-icon{
+    width: var(--icon-xs);
+    height: var(--icon-xs);
+}
+  

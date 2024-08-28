@@ -1,7 +1,8 @@
 import { IReactNode } from '@/types/IReactNode';
 import React from 'react';
 import styles from './BasicLayout.module.css';
-import { Copyright } from 'lucide-react';
+import CopyRight from '@/components/copy-right/CopyRight';
+import ConfirmButton from '@/components/ui/button/ConfirmButton';
 import Button from '@/components/ui/button/Button';
 
 export default function BasicLayout({ children }: IReactNode) {
@@ -20,14 +21,7 @@ export default function BasicLayout({ children }: IReactNode) {
 				<div>{children}</div>
 
 				<div>
-					<footer className={styles.footer}>
-						<div className={styles.content}>
-							<div>
-								<Copyright />
-							</div>
-							<p className={styles.desc}>Copyright 2024 Tae Geun, Kim</p>
-						</div>
-					</footer>
+					<CopyRight></CopyRight>
 				</div>
 			</div>
 		</>

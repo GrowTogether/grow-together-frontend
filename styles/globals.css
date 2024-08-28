@@ -14,6 +14,7 @@
   --color-blue-0: #5cb3ff;     
   --color-blue-1: #60a5fa;     
   --color-blue-2: #2563eb; 
+  --color-blue-3: #1e50cb;
   --color-navy-1: #174172;       
 
   /* Font Sizes */
@@ -36,6 +37,7 @@
   --font-weight-bold: 700;
 
   /* Border Radius */
+  --border-radius-xs: 0.25rem;
   --border-radius-sm: 0.5rem;
   --border-radius-md: 0.85rem;
   --border-radius-xl: 2rem;
@@ -43,6 +45,9 @@
   /* Box Shadow */
   --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --box-shadow-md: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  --box-shadow-blue-sm: 0 1px 2px rgba(37, 100, 235, 0.3); 
+  --box-shadow-blue-md: 0 4px 6px rgba(37, 99, 235, 0.4); 
 
   /* Padding */
   --container-padding-xl: 2.5rem;
@@ -56,16 +61,21 @@
 
   /* Icon size */
   --icon-xs: 1.25rem;
+  --icon-default: 1.5rem;
   --icon-sm: 3rem;
   --icon-md: 4rem;
 
   /* border */
   --border-none: 0px;
   --border-slim: 1px solid var(--color-gray-1);
+  --border-slim2: 1.5px solid var(--color-gray-1);
 
   /* Card Sepc */
   --square-mini-w: 200px;
   --square-mini-h: 160px;
+
+  /* Input Box Size */
+  --input-box-h: var(--font-size-2xl);
 }
 * {
   margin: 0;

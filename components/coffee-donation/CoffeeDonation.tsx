@@ -7,7 +7,7 @@ export default function CoffeeDonation() {
 	return (
 		<>
 			<div className={styles.container}>
-				<h2 className={styles.title}>커피 한 잔의 응원</h2>
+				<h2 className={styles.title}>커피 한 잔의 응원 !</h2>
 				<div className={styles.content}>
 					<Coffee className={styles.coffee} />
 					<p className={styles.desc}>
@@ -19,8 +19,8 @@ export default function CoffeeDonation() {
 				</div>
 				<div className={styles.button}>
 					<Button>
-						<p>커피 도네이션 하기</p>
-						<Coffee className={styles.coffee2} />
+						<p>커피 도네이션 하기 🥰</p>
+						{/* <Coffee className={styles.coffee2} /> */}
 					</Button>
 				</div>
 			</div>
