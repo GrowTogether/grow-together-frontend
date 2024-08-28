@@ -1,14 +1,12 @@
 import LoginForm from '@/components/login-form/LoginForm';
-import Logo from '@/components/logo/Logo';
-import NarrowLayout from '@/layouts/narrowLayout';
+import JoinLayout from '@/layouts/JoinLayout';
 
 export default function LoginPage() {
 	return (
 		<>
-			<NarrowLayout>
-				<Logo></Logo>
+			<JoinLayout>
 				<LoginForm></LoginForm>
-			</NarrowLayout>
+			</JoinLayout>
 		</>
 	);
 }

@@ -5,3 +5,6 @@
 .container{
     width: var(--container-width-s);
 }
+.logo{
+    margin: var(--margin-lg) 0;
+}

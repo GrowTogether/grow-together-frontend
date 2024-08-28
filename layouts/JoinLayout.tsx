@@ -1,13 +1,16 @@
 import { IReactNode } from '@/types/IReactNode';
-import BasicLayout from './BasicLayout';
 import CopyRight from '@/components/copy-right/CopyRight';
-import styles from './narrowLayout.module.css';
+import styles from './JoinLayout.module.css';
+import Logo from '@/components/logo/Logo';
 
-export default function NarrowLayout({ children }: IReactNode) {
+export default function JoinLayout({ children }: IReactNode) {
 	return (
 		<>
 			<div className={styles.outline}>
 				<div className={styles.container}>
+					<div className={styles.logo}>
+						<Logo></Logo>
+					</div>
 					<div>
 						<div>{children}</div>
 					</div>
