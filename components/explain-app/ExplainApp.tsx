@@ -20,10 +20,11 @@ const explains = [
 	},
 ];
 export default function ExplainApp() {
+	const explainAppTitle: string = '왜 "Interactive Study" 인가요?';
 	return (
 		<>
 			<div className={styles.container}>
-				<h2 className={styles.title}>왜 "Interactive Study" 인가요?</h2>
+				<h2 className={styles.title}>{explainAppTitle}</h2>
 				<ul className={styles.content}>
 					{explains.map((reason, index) => (
 						<li key={index}>
