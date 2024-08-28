@@ -9,12 +9,11 @@ export default function JoinLayout({ children }: IReactNode) {
 		<>
 			<div className={styles.outline}>
 				<div className={styles.container}>
-					<div className={styles.logo}>
+					{/* <div className={styles.logo}>
 						<Logo></Logo>
-					</div>
-					<div>
-						<div>{children}</div>
-					</div>
+					</div> */}
+					<div className={styles.children}>{children}</div>
+					
 					<div className={styles.joiner}>
 						<p>
 							이미 가입된 회원이신가요?{' '}

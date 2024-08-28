@@ -3,7 +3,7 @@ import styles from './JoinForm.module.css';
 import ConfirmButton from '../ui/button/ConfirmButton';
 import AppLogoTitle2 from '@/public/app-logo-title2.svg';
 
-export default function JoinForm() {
+export default function JoinForm({ nextStep, updateFormData }: any) {
 	return (
 		<>
 			<div className={styles.container}>
@@ -14,30 +14,8 @@ export default function JoinForm() {
 				<p className={styles.desc}>
 					함께 배우고 성장하는 공간, 지금 시작해보세요!
 				</p>
-				{/* <form action="">
-					<div className={styles.form}>
-						<label htmlFor="email" className={styles.label}>
-							이메일
-						</label>
-						<input
-							type="text"
-							id="email"
-							name="email"
-							className={styles.email}
-						/>
-						<label htmlFor="password" className={styles.label}>
-							비밀번호
-						</label>
-						<input
-							type="text"
-							id="password"
-							name="password"
-							className={styles.password}
-						/>
-					</div>
-				</form> */}
 				<div className={styles.submit}>
-					<ConfirmButton>
+					<ConfirmButton onClick={nextStep}>
 						<p className={styles.submittext}>회원 가입 시작</p>
 					</ConfirmButton>
 				</div>

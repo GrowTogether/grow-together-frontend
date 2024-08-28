@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
 }
-.container{
+.children{
+    margin-top: var(--margin-2xl);
+}
+.container{ 
     width: var(--container-width-s);
 }
 .logo{
