@@ -7,6 +7,7 @@
     gap: 1rem;
 }
 .sign, .join, .sepa{
+    cursor: pointer;
     background: transparent;
     border: var(--border-none);
 }

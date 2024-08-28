@@ -60,6 +60,8 @@
   --margin-sm: 1rem;
   --margin-md: 1.5rem;
   --margin-lg: 2rem;
+  --margin-xl: 4rem;
+  --margin-2xl: 8rem;
 
   /* Icon size */
   --icon-xs: 1.25rem;
@@ -98,7 +100,8 @@ body {
 h1 {
   font-size: var(--font-size-xl); 
 }
-h2 {
+h2{
+  line-height: var(--font-size-2xl);
   font-size: var(--font-size-lg); 
 }
 h3 {

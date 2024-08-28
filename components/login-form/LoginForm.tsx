@@ -96,14 +96,6 @@ export default function LoginForm() {
 					</div>
 				</div>
 			</div>
-			<div className={styles.joiner}>
-				<p>
-					아직 계정이 없으신가요?{' '}
-					<Link href="#" className={styles.text2}>
-						회원가입
-					</Link>
-				</p>
-			</div>
 		</>
 	);
 }

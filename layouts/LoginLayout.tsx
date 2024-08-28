@@ -1,10 +1,10 @@
 import { IReactNode } from '@/types/IReactNode';
 import CopyRight from '@/components/copy-right/CopyRight';
-import styles from './JoinLayout.module.css';
+import styles from './LoginLayout.module.css';
 import Logo from '@/components/logo/Logo';
 import Link from 'next/link';
 
-export default function JoinLayout({ children }: IReactNode) {
+export default function LoginLayout({ children }: IReactNode) {
 	return (
 		<>
 			<div className={styles.outline}>
@@ -17,9 +17,9 @@ export default function JoinLayout({ children }: IReactNode) {
 					</div>
 					<div className={styles.joiner}>
 						<p>
-							이미 가입된 회원이신가요?{' '}
+							아직 계정이 없으신가요?{' '}
 							<Link href="#" className={styles.text2}>
-								로그인
+								회원가입
 							</Link>
 						</p>
 					</div>
