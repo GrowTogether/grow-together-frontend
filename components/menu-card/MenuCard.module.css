@@ -29,5 +29,6 @@
     padding: var(--container-padding-sm);
 }
 .desc{
+    word-break: keep-all;
     padding: var(--container-padding-sm);
 }

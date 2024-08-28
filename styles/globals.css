@@ -1,3 +1,5 @@
+@import "pretendard/dist/web/static/pretendard.css";
+
 :root {
   /* Width */
   --container-width-s: 600px;
@@ -88,6 +90,7 @@ body {
   font-size: var(--font-size-default);
 }
 body {
+  font-family: 'Pretendard', sans-serif;
   color: var(--font-color-default);
   background: var(--color-gray-0);
 }

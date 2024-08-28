@@ -8,6 +8,6 @@
   </defs>
 
   <!-- 여백을 주기 위해 x, y 값을 조정 -->
-  <text x="20" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#4A90E2" filter="url(#shadow)">Interactive</text>
-  <text x="20" y="100" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#5CB3FF" filter="url(#shadow)">Study</text>
+  <text x="20" y="60" font-family="Pretendard, sans-serif" font-size="30" font-weight="bold" fill="#4A90E2" filter="url(#shadow)">Interactive</text>
+  <text x="20" y="100" font-family="Pretendard, sans-serif" font-size="30" font-weight="bold" fill="#5CB3FF" filter="url(#shadow)">Study</text>
 </svg>
