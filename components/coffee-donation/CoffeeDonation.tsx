@@ -14,7 +14,6 @@ export default function CoffeeDonation() {
 						여러분의 작은 후원이 Interactive Study를 더 나은 학습 플랫폼으로
 						만듭니다. <br />
 						커피 한 잔 값으로 우리의 서비스를 지원해 주세요. <br />
-						모든 후원금은 플랫폼 개선과 새로운 학습 기능 개발에 사용됩니다.
 					</p>
 				</div>
 				<div className={styles.button}>

@@ -1,6 +1,11 @@
 .outline{
     padding: var(--container-padding-md) var(--container-padding-lg);
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .controls{
     display: flex;
     flex-direction: row-reverse;
@@ -14,3 +19,89 @@
 .text{
     font-size: var(--font-size-sm);
 }
+.hamburger{
+    cursor: pointer;    
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: var(--border-radius-md);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease; 
+}
+.sidebarHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 1rem;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .content {
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar.open + .content {
+    margin-left: 250px;
+  }
+  .closeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .closeButton:hover {
+    color: #000;
+  }
+  
+  .sidebar nav {
+    padding-top: 1rem;
+  }
+  Copy.userProfile {
+    cursor: pointer;
+  }
+  
+  .profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .logoutButton {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .logoutButton:hover {
+    color: #000;
+    text-decoration: underline;
+  }

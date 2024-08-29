@@ -6,10 +6,15 @@ import CoffeeDonation from '@/components/coffee-donation/CoffeeDonation';
 import ExplainApp from '@/components/explain-app/ExplainApp';
 import Logo from '@/components/logo/Logo';
 
-export default function Home() {
+interface HomePageProps {
+	isLoggedIn: boolean;
+	userProfile: string;
+}
+
+export default function Home({ isLoggedIn, userProfile }: HomePageProps) {
 	return (
 		<>
-			<BasicLayout>
+			<BasicLayout isLoggedIn={isLoggedIn} userProfile={userProfile}>
 				<header className={styles.header}>
 					<section>
 						<Logo></Logo>
@@ -33,4 +38,20 @@ export default function Home() {
 			</BasicLayout>
 		</>
 	);
+}
+
+export async function getServerSideProps(context: any) {
+	// 서버 사이드에서 로그인 상태를 확인하는 로직
+
+	const isLoggedIn = false;
+	const userProfile = isLoggedIn
+		? '/app-logo-orange.svg'
+		: '/app-logo-orange.svg';
+
+	return {
+		props: {
+			isLoggedIn,
+			userProfile,
+		},
+	};
 }
